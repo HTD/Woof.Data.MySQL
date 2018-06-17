@@ -20,6 +20,10 @@ namespace Woof.DataEx {
         /// </summary>
         private readonly string ConnectionString;
 
+        /// <summary>
+        /// Creates new MySQL database source using the specified connection string.
+        /// </summary>
+        /// <param name="connectionString">MySQL connection string.</param>
         public MySql(string connectionString) => ConnectionString = connectionString;
 
         /// <summary>
