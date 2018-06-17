@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Woof</RootNamespace>
+    <Authors>Adam Łyskawa, Kamil Marzec</Authors>
+    <Company>CodeDog Ltd.</Company>
+    <Description>Woof.Data MySQL bindings.</Description>
+    <Copyright>(c)2018 by CodeDog Ltd.</Copyright>
+    <PackageLicenseUrl>https://en.wikipedia.org/wiki/MIT_License</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/HTD/Woof.Data.MySQL</PackageProjectUrl>
+    <PackageTags>woof codedog data mysql</PackageTags>
+    <PackageReleaseNotes>Initial release.</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.11" />
+    <PackageReference Include="Woof.Data" Version="1.0.0" />
+  </ItemGroup>
+</Project>
